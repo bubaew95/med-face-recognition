@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block title %}Пациент{% endblock %}
+
+{% block content %}
+
+  {% if pacient %}
+
+  <div class="card blog-horizontal">
+      <div class="card-header header-elements-inline">
+          <div class="pull-left">
+              <a class="btn btn-warning btn-sm legitRipple" href="/admin/records/index?pacient=1"><i class="icon-folder-plus2"></i> Записи врачей</a>            <a class="btn btn-info btn-sm legitRipple" href="/admin/supervision/index?pacient=1"><i class="icon-folder-heart"></i> Медицинское наблюдение</a>            <a class="btn btn-default btn-sm legitRipple" href="/admin/pacients/images?pacient=1"><i class="icon-image2"></i> Изображения</a>        </div>
+          <div class="header-elements">
+              <div class="list-icons">
+                  <div class="float-right">
+                      <a class="btn btn-primary btn-sm legitRipple" href="/admin/pacients/update?id=1"><i class="icon-pencil5"></i></a>                    <a class="btn btn-danger btn-sm legitRipple" href="/admin/pacients/delete?id=1" data-confirm="Are you sure you want to delete this item?" data-method="post"><i class="icon-trash"></i></a>                </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="card-body">
+  
+      </div>
+  
+      <div class="card-body">
+  
+          <div class="pacients-cart-view">
+  
+              <div class="card-body">
+                      <div class="card-img-actions mr-3">
+                          <img class="card-img img-fluid" src="http://217.61.113.12/uploads/{{ pacient[id] }}">
+                          <div class="card-img-actions-overlay card-img">
+                              <a href="/uploads/1/1_1574101488.jpg" class="btn btn-outline bg-white text-white border-white border-2 btn-icon rounded-round legitRipple">
+                                  <i class="icon-link"></i>
+                              </a>
+                          </div>
+                      </div>
+                  
+                  <h5 class="mb-2 font-weight-semibold">
+                                          1. Дата заполнения медицинской карты:
+                      число <span class="text-underline">10</span>
+                      месяц  <span class="text-underline">07</span>
+                      год  <span class="text-underline">2019</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      2. Фамилия, имя, отчество <span class="text-underline">{{pacient.name}}</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      3. Пол:
+                      <span class="text-underline">муж. - 1</span>&nbsp;жен. - 2                </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                                          4. Дата рождения:
+                      число <span class="text-underline">06</span>
+                      месяц <span class="text-underline">11</span>
+                      год <span class="text-underline">2019</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      5. Место регистрации: субъект Российской Федерации <span class="text-underline">г.Москва, ул.Мира, д.29</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      6. Адрес регистрации по месту пребывания: субъект Российской Федерации <span class="text-underline">г.Москва, ул.Мира, д.29</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      7. Полис ОМС: <span class="text-underline">9999999999</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      8. СНИЛС: <span class="text-underline">99999999999999999999</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      9. Наименование страховой медицинской организации <span class="text-underline">Организация</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      10. Документ (наименование,№,дата,кем выдан):
+                      <span class="text-underline">Паспорт. Уфмс России по Московской области</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      11. Заболевания, по поводу которых осуществляется диспансерное наблюдение:
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      12. Инвалидность (первичная, повторная, группа, дата) <span class="text-underline">нет</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      13. Место работы, должность <span class="text-underline">Временно безработный</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      14. Группа крови <span class="text-underline">1 (отр)</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      15. HR фактор <span class="text-underline">1</span>
+                  </h5>
+  
+                  <h5 class="mb-2 font-weight-semibold">
+                      16. Аллергические реакции <span class="text-underline">Аллергии не наблюдались</span>
+                  </h5>
+  
+              </div>
+  
+          </div>
+      </div>
+  </div>
+
+  {% else %}
+    <h1 class="text-center">Пациент не найден в БД</h1>
+  {% endif %}
+
+{% endblock %}

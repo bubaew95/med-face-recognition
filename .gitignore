@@ -1,11 +1,5 @@
-node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
-web-report/
+/flask/__pycache__
+/.idea
+/mariadb
+/logs/*
+/data/*

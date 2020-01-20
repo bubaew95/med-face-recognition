@@ -1,0 +1,35 @@
+<?php
+/**
+ * @link http://phe.me
+ * @copyright Copyright (c) 2014 Pheme
+ * @license MIT http://opensource.org/licenses/MIT
+ */
+
+use yii\helpers\Html;
+use backend\modules\settings\Module;
+
+/**
+ * @var yii\web\View $this
+ * @var pheme\settings\models\Setting $model
+ */
+
+$this->title = $model->section. '.' . $model->key;
+
+$this->params['breadcrumbs'][] = ['label' => 'Settings', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = 'Update';
+
+?>
+<div class="setting-update">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <?=
+    $this->render(
+        '_form',
+        [
+            'model' => $model,
+        ]
+    ) ?>
+
+</div>

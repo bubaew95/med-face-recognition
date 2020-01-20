@@ -1,0 +1,6 @@
+.text-underline {
+  border-bottom: 1px solid #333333;
+  padding: 0 10px;
+  width: 100%;
+  box-shadow: 0px 1px 0px 0px #889289;
+}
