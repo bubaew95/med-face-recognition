@@ -42,3 +42,23 @@ ___
 После найденного совпадения flask отдает найденного пациента в приложение, а далее приложение выводин на экран.
 <br>
 <br>
+
+<center>
+<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (1).jpg">
+<br>Рис.1. Вектор признаков лица в Веб-интерфейсе
+</center>
+
+<center>
+<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (2).jpg">
+<br>Рис.2. Камера в мобильном приложении
+</center>
+
+<center>
+<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (3).jpg">
+<br>Рис.3. Информация о больном в мобильном приложении
+</center>
+<br>
+<center>
+<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (5).jpg">
+<br>Рис.4. Работа всего проекта под управлением Docker
+</center>
