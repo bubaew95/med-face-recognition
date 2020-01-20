@@ -6,6 +6,12 @@ ____
 
 Проект разработан с ипользованием DOCKER, который контейнизирует каждый сервис.
 
+<br>
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (5).jpg">
+<br>Рис.1. Работа всего проекта под управлением Docker
+</p>
+
 Были разработаны следующие сервисы:
 1. Веб-интерфейс
 2. Алгоритм распознавания
@@ -18,6 +24,10 @@ ____
 удалять медицинские карты пациентов. 
 В карте пациента можно добавить изображения лица, которая позволит алгоритму распознавания найти совпадение лиц.
 
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (1).jpg">
+<br>Рис.2. Вектор признаков лица в Веб-интерфейсе
+</p>
 
 **2. Алгоритм распознавания**
 ___
@@ -40,25 +50,15 @@ ___
 Далее алгоритм декодирует изображение ишет лицо, после создает вектор признаков лица, после чего сравнивается с 
 векторами признаков из базы данных.<br>
 После найденного совпадения flask отдает найденного пациента в приложение, а далее приложение выводин на экран.
-<br>
-<br>
-
-<p align="center">
-<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (1).jpg">
-<br>Рис.1. Вектор признаков лица в Веб-интерфейсе
-</p>
 
 <p align="center">
 <img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (2).jpg">
-<br>Рис.2. Камера в мобильном приложении
+<br>Рис.3. Камера в мобильном приложении
 </p>
 
 <p align="center">
 <img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (3).jpg">
-<br>Рис.3. Информация о больном в мобильном приложении
+<br>Рис.4. Информация о больном в мобильном приложении
 </p>
 <br>
-<p align="center">
-<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (5).jpg">
-<br>Рис.4. Работа всего проекта под управлением Docker
-</p>
+<br>
