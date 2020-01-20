@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "МЕД ЧР",
+    "slug": "OpenCV",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "description": "Система распознавания лиц для Фельдшеров",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }, 
+    "android": {
+      "package": "ru.bubaev.face_detection"
+    }
+  }
+}
