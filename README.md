@@ -43,22 +43,22 @@ ___
 <br>
 <br>
 
-<center>
-<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (1).jpg">
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (1).jpg">
 <br>Рис.1. Вектор признаков лица в Веб-интерфейсе
-</center>
+</p>
 
-<center>
-<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (2).jpg">
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (2).jpg">
 <br>Рис.2. Камера в мобильном приложении
-</center>
+</p>
 
-<center>
-<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (3).jpg">
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (3).jpg">
 <br>Рис.3. Информация о больном в мобильном приложении
-</center>
+</p>
 <br>
-<center>
-<img src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (5).jpg">
+<p align="center">
+<img style="display: block; margin: 0 auto" src="https://raw.githubusercontent.com/bubaew95/med-face-recognition/master/source/1 (5).jpg">
 <br>Рис.4. Работа всего проекта под управлением Docker
-</center>
+</p>
